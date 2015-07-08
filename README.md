@@ -1,0 +1,1 @@
+# terminal_personal_setup_SHZ
