@@ -1,11 +1,11 @@
 #!/bin/sh
-sudo apt-get install vim
-sudo apt-get install cmake
-sudo apt-get install g++
-sudo apt-get install ssh
-sudo apt-get install git subversion
+sudo apt-get install vim cmake g++ ssh git subversion
+#sudo apt-get install cmake
+#sudo apt-get install g++
+#sudo apt-get install ssh
+#sudo apt-get install git subversion
 
-echo  "\033[1;33;40mInstall ZSH!!!\033[0m\n"
+echo  "\033[1;33;40mInstall ZSH and Oh-My-ZSH!!!\033[0m\n"
 sudo apt-get install zsh
 sudo wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh 
 chsh -s /bin/zsh
