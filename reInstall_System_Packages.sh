@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt-get update
 sudo apt-get install vim cmake g++ ssh git subversion
 #sudo apt-get install cmake
 #sudo apt-get install g++
