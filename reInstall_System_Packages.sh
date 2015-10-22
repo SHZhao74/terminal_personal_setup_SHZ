@@ -15,9 +15,13 @@ chsh -s /bin/zsh
 echo  "\033[1;33;40mSet auto ls command after cd command\033[0m\n"
 vim ~/.zshrc -c '$put=\"\nchpwd() {\n    emulate -L zsh\n    ls \n}\"' -c 'wq'
 
-echo  "\033[1;33;40mSet vim tab size = 4 \033[0m\n"
-vim ~/.vimrc -c '$put=\"set tabstop=4\"' -c 'wq'
+echo  "\033[1;33;40mSet .vimrc and use molokai color scheme \033[0m\n"
+#vim ~/.vimrc -c '$put=\"set tabstop=4\"' -c 'wq'
+cp .vimrc ~
+cp -r color ~/.vim/
 
+echo  "\033[1;33;40mInstall Monaco font \033[0m\n"
+curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
 #echo  "\033[1;33;40mSet vim colorscheme = solarized \033[0m\n"
 #git clone https://github.com/sickill/vim-sunburst.git
 #mkdir ~/.vim/colors
