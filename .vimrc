@@ -9,7 +9,7 @@ syntax enable
 set background=dark
 let g:molokai_original = 1
 colorscheme molokai
- 
+set t_Co=256 
  
 "----------------
 "" 編輯器基本設定
