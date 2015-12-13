@@ -6,7 +6,8 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="soulout"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -85,7 +86,7 @@ alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #My theme
-source ./soulout.zsh-theme
+#source ./soulout.zsh-theme
 #Automatically ls after cd command
 chpwd() {
     emulate -L zsh
