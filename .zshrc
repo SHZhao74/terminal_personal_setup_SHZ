@@ -8,7 +8,7 @@
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
 ZSH_THEME="soulout"
-
+DEFAULT_USER="Zhao"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
