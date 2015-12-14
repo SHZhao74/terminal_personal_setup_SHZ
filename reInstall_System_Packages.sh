@@ -24,4 +24,4 @@ sudo cp -r color ~/.vim/
 #curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
 
 
-sudo reboot
+#sudo reboot
