@@ -18,7 +18,7 @@ source ~/.zshrc
 echo  "\033[1;33;40mSet .vimrc and use molokai color scheme \033[0m\n"
 sudo cp .vimrc ~
 sudo mkdir ~/.vim
-sudo cp -r color ~/.vim/
+sudo cp -r colors ~/.vim/
 
 #echo  "\033[1;33;40mInstall Monaco font \033[0m\n"
 #curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash
